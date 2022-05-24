@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="LoginPage" content="This is the login page of the website">
+        <title>
+            LoginPage 
+        </title>
+    </head>
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="LoginPage" content="This is the login page of the website">
+        <title>
+            LoginPage 
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+ <!-- to make a circle instead of 10px in the border radius give 50%-->
+    <style>
+        .thick-white-border{
+            border-color: darkgrey  ;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 10px;
+           
+        }
+        .larger-image{
+            width: 500px;
+        }
+        .gold-text {
+            color:#B8860B;
+            
+        }
+        h1{
+            font-size: 48px;
+            font-family: Dancing Script, monospace;
+        }
+        h2{
+            font-family: Caveat;
+        }
+        body{
+            font-family: monospace, Caveat;
+        }
+    </style>
+
+
+    <body style ="background-color:#C0C0C0">
+        <h1 class = "gold-text">
+            <b>Air Quality Monitoring System (AQMS) </b>
+        </h1>
+        <h2>
+            <b>Login Page </b>
+        </h2>
+        <hr>
+        <br>
+
+        <section>
+            <form>
+                Enter ID:
+                <input type="text"/>
+                <br>
+                Enter Password:
+                <input type="password"/>
+                <input type="submit"/>
+                
+            </form>
+
+        </section>
+        <p>
+            <img class="larger-image thick-white-border" src="https://images.unsplash.com/photo-1636953056323-9c09fdd74fa6?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb"/>
+        </p>
+        
+
+    </body>
+    
+
+
+
+</html>
