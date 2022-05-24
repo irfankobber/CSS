@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="LoginPage" content="This is the login page of the website">
+        <title>
+            LoginPage 
+        </title>
+    </head>
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="LoginPage" content="This is the login page of the website">
+        <title>
+            LoginPage 
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+ <!-- to make a circle instead of 10px in the border radius give 50%-->
+   <!--Using attribute selectors to style elements of type-->
+    <style>
+        [type='submit']{
+            color:darkblue;
+        }
+        #heading{
+            color:aqua;
+        }
+        .thick-white-border{
+            border-color: darkgrey  ;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 10px;
+           
+        }
+        .larger-image{
+            width: 500px;
+        }
+        .gold-text {
+            color:#B8860B;
+            
+        }
+
+        h1{
+            font-size: 48px;
+            font-family: Dancing Script, monospace;
+            padding:50px;
+            margin:-20px;
+        }
+        h2{
+            font-family: Caveat;
+            padding:30px;
+        }
+        body{
+            font-family: monospace, Caveat;
+        }
+    </style>
+  
+        <!--we can also do padding-left, right, top, bottom etc-->
+        <!--we can also directly set up padding of top, right, bottom and left using padding: 10px 10px 10px 10px-->
+        <!--We can do the same for margins-->
+<!-- An ID is similar to a class except each class can only have one id, we can use this id to modify or style a tag using even javascript-->
+    <body style ="background-color:#C0C0C0">
+        <h1 class = "gold-text">
+            <b>Air Quality Monitoring System (AQMS) </b>
+        </h1>
+        <h2 id = "heading">
+            <b>Login Page </b>
+        </h2>
+        <hr>
+        <br>
+
+        <section>
+            <form>
+                Enter ID:
+                <input type="text"/>
+                <br>
+                Enter Password:
+                <input type="password"/>
+                <input type="submit"/>
+                
+            </form>
+
+        </section>
+        <p>
+            <img class="larger-image thick-white-border" src="https://images.unsplash.com/photo-1636953056323-9c09fdd74fa6?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb"/>
+        </p>
+        
+
+    </body>
+    
+
+
+
+</html>
